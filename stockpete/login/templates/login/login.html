@@ -1,0 +1,12 @@
+<html>
+<body>
+ <h2>Sign up</h2>
+  <form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="text" name="Username">Username</input><br>
+    <input type="password" name="Password">Password</input>
+    <input type=submit> Submit </input>
+  </form>
+</body>
+</html>
